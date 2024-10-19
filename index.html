@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurador de Volkswagen</title>
+    <link rel="stylesheet" href="estilos/estilos.css"> 
+</head>
+<body>
+
+    <header>
+        <h1>Configurador de Volkswagen</h1>
+    </header>
+    <form action="">
+        <h3>Tipo de motor:</h3>
+        <br>
+        Gasolina: <input type="radio" name="tipoMotor" id="gasolina"> 
+        <br>
+        Diesel: <input type="radio" name="tipoMotor" id="diesel">
+        <hr>
+
+        <h3>Potencia:</h3> 
+        Potencia: <br>
+        Potencia 1200: <input type="radio" name="potencia" id="1200"> 
+        <br>
+        Potencia 1900: <input type="radio" name="potencia" id="1900">
+        <br>
+        Potencia 2300: <input type="radio" name="potencia" id="2300"> 
+        <hr>
+
+        <h3>Tipo de pintura:</h3>
+        <br>
+        Normal: <input type="radio" name="pintura" id="normal">
+        <br>
+        Mate: <input type="radio" name="pintura" id="mate"> 
+        <br>
+        Metalizado: <input type="radio" name="pintura" id="metalizado"> 
+        <hr>
+
+        <h3>Color pintura:</h3>
+        <br>
+        Negro: <input type="radio" name="color" id="negro"> 
+        <br>
+        Blanco: <input type="radio" name="color" id="blanco"> 
+        <br>
+        Rojo: <input type="radio" name="color" id="rojo"> 
+        <br>
+        Azul: <input type="radio" name="color" id="azul"> 
+        <br>
+        Verde: <input type="radio" name="color" id="verde"> 
+        <br>
+        Gris: <input type="radio" name="color" id="gris"> 
+        <hr>
+
+        <h3>Extras:</h3>
+        <br>
+        Aleron Deportivo: <input type="checkbox" name="aleron" id="aleron"> 
+        <br>
+        radio-CD con MP3: <input type="checkbox" name="radio" id="radio"> 
+        <br>
+        Altavoces de gama alta: <input type="checkbox" name="altavoces" id="altavoces"> 
+        <br>
+        GPS: <input type="checkbox" name="gps" id="gps"> 
+        <br>
+        <input type="button" id="boton" value="Enviar">
+    </form>
+
+    <p></p>
+
+    <div class="image-container">
+        <img src="https://hips.hearstapps.com/hmg-prod/images/volkswagen-golf-gti-2024-1-65b0e21f77374.jpg?crop=1.00xw:0.781xh;0,0.159xh&resize=1200:*" alt="Volkswagen Golf GTI Deportivo" class="imagen-golf">
+    </div>
+ 
+    <footer>
+        <img src="https://imgs.search.brave.com/k46wtTeeNn-ln5n8NRouJFc9hVV97Odt2lX4oMRHWAc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWRzLnZ3LW1tcy5k/ZS9zeXN0ZW0vcHJv/ZHVjdGlvbi9pbWFn/ZXMvdnduLzAzMC8x/NDUvaW1hZ2VzLzdh/MGQ4NGQzYjcxOGM5/YTYyMTEwMGU0M2U1/ODEyNzg0MzMxMTRj/ODIvREIyMDE5QUww/MTk1MF93ZWJfMTYw/MC5qcGc_MTY0OTE1/NTM1Ng" alt="Logo Volkswagen" class="footer-logo">
+    </footer>
+
+    <script src="configurador.js"></script>
+</body>
+</html>
